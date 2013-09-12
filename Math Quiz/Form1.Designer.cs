@@ -1,6 +1,6 @@
 ﻿namespace Math_Quiz
 {
-    partial class Form1
+    partial class Form12
     {
         /// <summary>
         /// Required designer variable.
@@ -279,7 +279,7 @@
             this.MinusLeftLabel.Text = "?";
             this.MinusLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // Form12
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -309,7 +309,7 @@
             this.Controls.Add(this.timeLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Form12";
             this.Text = "Math Quiz";
             ((System.ComponentModel.ISupportInitialize)(this.sum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.product)).EndInit();
