@@ -39,6 +39,7 @@ namespace Math_Quiz
         {
             StartTheQuiz();
             startButton.Enabled = false;
+            timeLabel.BackColor = Color.White;
         }
 
         public void StartTheQuiz()
@@ -123,14 +124,14 @@ namespace Math_Quiz
                 timeLabel.Text = timeLeft + " seconds";
             }
             else
-            { 
+            {
                 //if the user run out of time stop the timer show
                 //a message box and fill in the answers
 
                 timer1.Stop();
                 timeLabel.Text = "Time's up!";
                 MessageBox.Show("You didn't finish in time.", "Sorry");
-                
+
                 //These really could be a function that returns an int for the whole proj
                 sum.Value = add1 + add2;
                 difference.Value = subtraction1 - subtraction2;
@@ -138,6 +139,12 @@ namespace Math_Quiz
                 product.Value = multi1 * multi2;
 
                 startButton.Enabled = true;
+            }
+
+
+            if (timeLeft <= 5)
+            {
+                timeLabel.BackColor = Color.Red;
             }
         } //Timer Tick
 
