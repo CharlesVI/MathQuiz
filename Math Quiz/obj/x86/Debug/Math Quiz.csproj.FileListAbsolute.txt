@@ -1,0 +1,9 @@
+C:\Users\Chuck\Documents\Repos\math-quiz\Math Quiz\bin\Debug\Math Quiz.exe
+C:\Users\Chuck\Documents\Repos\math-quiz\Math Quiz\bin\Debug\Math Quiz.pdb
+C:\Users\Chuck\Documents\Repos\math-quiz\Math Quiz\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Chuck\Documents\Repos\math-quiz\Math Quiz\obj\x86\Debug\Math_Quiz.Form1.resources
+C:\Users\Chuck\Documents\Repos\math-quiz\Math Quiz\obj\x86\Debug\Math_Quiz.Properties.Resources.resources
+C:\Users\Chuck\Documents\Repos\math-quiz\Math Quiz\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Chuck\Documents\Repos\math-quiz\Math Quiz\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Chuck\Documents\Repos\math-quiz\Math Quiz\obj\x86\Debug\Math Quiz.exe
+C:\Users\Chuck\Documents\Repos\math-quiz\Math Quiz\obj\x86\Debug\Math Quiz.pdb

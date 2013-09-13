@@ -1,6 +1,6 @@
 ﻿namespace Math_Quiz
 {
-    partial class Form12
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -230,6 +230,7 @@
             this.startButton.TabIndex = 1;
             this.startButton.Text = "Start the quiz";
             this.startButton.UseVisualStyleBackColor = true;
+            this.startButton.Click += new System.EventHandler(this.startButton_Click);
             // 
             // difference
             // 
@@ -279,7 +280,7 @@
             this.MinusLeftLabel.Text = "?";
             this.MinusLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form12
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -309,7 +310,7 @@
             this.Controls.Add(this.timeLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MinimizeBox = false;
-            this.Name = "Form12";
+            this.Name = "Form1";
             this.Text = "Math Quiz";
             ((System.ComponentModel.ISupportInitialize)(this.sum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.product)).EndInit();
