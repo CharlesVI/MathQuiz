@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.timeLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.plusLeftLable = new System.Windows.Forms.Label();
@@ -51,6 +52,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.minusRightLabel = new System.Windows.Forms.Label();
             this.MinusLeftLabel = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.sum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.quotient)).BeginInit();
@@ -123,6 +125,7 @@
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(100, 35);
             this.sum.TabIndex = 2;
+            this.sum.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // product
             // 
@@ -131,6 +134,7 @@
             this.product.Name = "product";
             this.product.Size = new System.Drawing.Size(100, 35);
             this.product.TabIndex = 4;
+            this.product.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // label2
             // 
@@ -179,6 +183,7 @@
             this.quotient.Name = "quotient";
             this.quotient.Size = new System.Drawing.Size(100, 35);
             this.quotient.TabIndex = 5;
+            this.quotient.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // label8
             // 
@@ -239,6 +244,7 @@
             this.difference.Name = "difference";
             this.difference.Size = new System.Drawing.Size(100, 35);
             this.difference.TabIndex = 3;
+            this.difference.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // label6
             // 
@@ -279,6 +285,11 @@
             this.MinusLeftLabel.TabIndex = 16;
             this.MinusLeftLabel.Text = "?";
             this.MinusLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -346,6 +357,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label minusRightLabel;
         private System.Windows.Forms.Label MinusLeftLabel;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
